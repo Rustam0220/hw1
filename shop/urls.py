@@ -7,3 +7,4 @@ urlpatterns = [
     path('current_date/', current_date_view, name='current_date'),
     path('goodbye/', goodbye_view, name='goodbye'),
 ]
+
