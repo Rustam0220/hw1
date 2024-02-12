@@ -6,7 +6,7 @@ def hello_view(request):
 
 def current_date_view(request):
     current_date = datetime.now().strftime("%Y-%m-%d")
-    return HttpResponse("Current date: " + current_date)
+    return HttpResponse('Current date: '+ current_date)
 
 def goodbye_view(request):
     return HttpResponse("Goodbye user!")
