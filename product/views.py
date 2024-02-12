@@ -10,6 +10,3 @@ def current_date_view(request):
 
 def goodbye_view(request):
     return HttpResponse("Goodbye user!")
-
-
-
