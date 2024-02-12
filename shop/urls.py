@@ -7,4 +7,3 @@ urlpatterns = [
     path('goodbye/', goodbye_view, name='goodbye'),
 ]
 
-
