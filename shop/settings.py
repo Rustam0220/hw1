@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
 
 
-    #  my apps
+    # my apps
     'product',
 ]
 
